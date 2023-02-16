@@ -1,12 +1,6 @@
 #include <stdio.h>
-/*
- * start main here
- *
- * puts command
- * return value
- */
-int main(void)
-{
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
-} 
+int main(void)//main method
+{//opening body of main
+puts("\"Programming is like building a multilingual puzzle");//function puts
+return (0);//return value
+} //closing body
