@@ -1,12 +1,12 @@
 #include <stdio.h>
-/** main starts here
- *opening bracket for body
- *prints the text
- *return 0
- *closing body
+/*
+ * start main here
+ *
+ * puts command
+ * return value
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 } 
