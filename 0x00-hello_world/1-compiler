@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=my_file.c | gcc -E -S -c "$CFILE" o my_file.o
+CFILE=my_file.c | gcc -S "$CFILE" o my_file.o
