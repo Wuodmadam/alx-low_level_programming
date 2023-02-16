@@ -5,3 +5,4 @@ print text using puts
 printf
 print size
 generate assmebly code for c
+write command
