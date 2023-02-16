@@ -3,3 +3,4 @@ comile withot linking
 add executable
 print text using puts
 printf
+print size
