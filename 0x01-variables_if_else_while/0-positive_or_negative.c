@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- * main begins here
+ * main prints any number and states whether negative or positive
  *
- * return value of 0
+ *
+ * return: value of 0
  */
 
 int main(void)
@@ -22,7 +23,7 @@ int main(void)
 	{
 	printf("%d is negative\n", n);
 	}
-        else
+	else
 	{
 	printf("%d is zero\n", n);
 	}
