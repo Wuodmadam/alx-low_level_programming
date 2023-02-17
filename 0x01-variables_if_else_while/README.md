@@ -5,3 +5,4 @@ print numbers
 print numbers
 print alphabet in lowercase
 print hexadecimal
+print all combinations of single digit numbers
