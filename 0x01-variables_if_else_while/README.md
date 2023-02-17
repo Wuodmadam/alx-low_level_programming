@@ -3,3 +3,4 @@ print lower case letters
 print alphabet ignoring some
 print numbers
 print numbers
+print alphabet in lowercase
