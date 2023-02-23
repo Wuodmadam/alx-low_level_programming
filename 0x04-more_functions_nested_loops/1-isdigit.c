@@ -1,15 +1,16 @@
 #include "main.h"
-
 /**
- * _isdigit -  a function that checks for a digit 0-9
- * @c: input
- * Return: 1 if c is a digit, 0 otherwise
+ * _isdigit - function that checks for uppercase character.
+ * @c: the int for the paramaters of my function
+ * Return: 0
  */
 int _isdigit(int c)
 {
-	if ((c >= 18) && (c <= 27))
-		return (1);
+	if (c >= 48 && c <= 57)
+	{
+	return (1);
+	}
 	else
-		return (0);
+	return (0);
 }
 
