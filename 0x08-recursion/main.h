@@ -11,4 +11,5 @@ int saidia(int c, int i);
 int is_prime_number(int n);
 int saidia_tena(int n, int d);
 int _sqrt(int x, int i);
+
 #endif /*MAIN_H*/
