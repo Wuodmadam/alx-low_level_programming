@@ -11,5 +11,6 @@ int saidia(int c, int i);
 int is_prime_number(int n);
 int saidia_tena(int n, int d);
 int _sqrt(int x, int i);
-
+int get_length(char *s);
+int my_pal(char *s, int l);
 #endif /*MAIN_H*/
