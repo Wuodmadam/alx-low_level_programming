@@ -1,18 +1,24 @@
-#include <stdio.h>
-#include "dog.h"
-
+#ifndef DOG_H
+#define DOG_H
 /**
- * main - check the code for ALX School students.
+ * struct dog - dog data
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: name of the owner of the dog
  *
- * Return: Always 0.
+ * Description: Defines metadata about the dog and type of dog's struct
  */
-int main(void)
+typedef struct dog
 {
-    struct dog my_dog;
+	char *name;
+	float age;
+	char *owner;
+} dog_t;
+/* Additional function prototypes */
+int _putchar(char c);
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
+#endif
 
-    my_dog.name = "Poppy";
-    my_dog.age = 3.5;
-    my_dog.owner = "Bob";
-    printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
-    return (0);
-}
